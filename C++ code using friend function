@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 class A {
- private:
+ private 
  int a,b;
  public:
  A(): a(12),b(1) { }
