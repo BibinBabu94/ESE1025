@@ -1,4 +1,4 @@
-//Write a single program that includes the following:
+Write a single program that includes the following:
 //1. Introduce a pointer for access the private members of a class, when local variable name is the same as member’s name.
 //2. Create chain functions in a class. The chain function will return “this pointer”. Using a class object to access and execute the chain function at the same time.
 //3. Add an exception-handling in your program to catch an error and give the message to user about the error.
