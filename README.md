@@ -1,2 +1,2 @@
-# ESE 1025
+# ESE_1025
 Course work on C++
