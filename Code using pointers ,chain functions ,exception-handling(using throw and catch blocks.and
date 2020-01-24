@@ -8,6 +8,7 @@ Write a single program that includes the following:
 using namespace std;
 class add
 {
+
   private:
     int a;
     int b;
