@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+    {
+        srand(time(0));
+        //Random selection of number for
+        int arr[1000];
+        for(int i=0;i<=1000;i++)
+        {
+            arr[i]=i;
+        }
+
+        int random = arr[rand()%1000];
+        printf("The number guessed by player is %d",random);
+        //Binary Search used by player1 from set of random numbers the main predicts
+            int upper=1000;
+            int lower=0;
+            int middle=(lower+upper)/2;
+            while(lower<=upper)
+            {
+                if(arr[middle]<random)
+                {
+                    lower=middle;
+                }
+                else if(arr[middle]==random)
+                {
+                    printf(" \n The number found by player2 %d",random);
+                    break;
+                }
+                else
+                upper=middle;
+                middle=(lower+upper)/2;
+
+                }
+            if(lower>upper)
+            {
+                printf("The number cannot be found as it is not in the range");
+            }
+           return 0;
+        }
