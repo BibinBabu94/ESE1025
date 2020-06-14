@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main()
-
-    {
+ {
         srand(time(0));
         //Random selection of number for
         int arr[1000];
